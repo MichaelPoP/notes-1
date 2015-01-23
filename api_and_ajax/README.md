@@ -57,10 +57,10 @@ Where else in computing do we see the term "interface"?
 - [https://developer.mozilla.org/en-US/docs/Web/API/Storage](https://developer.mozilla.org/en-US/docs/Web/API/Storage)
 
 ```javascript
-localStorage.getItem
-localStorage.setItem
-localStorage.removeItem
-localStorage.clear
+localStorage.getItem()
+localStorage.setItem()
+localStorage.removeItem()
+localStorage.clear()
 ```
 
 ### Twitter has an API
