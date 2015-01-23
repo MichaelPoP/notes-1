@@ -9,26 +9,26 @@
 
 ## Building from yesterday's lesson
 
-- Set up Node/Express app
+- Use jQuery's functions for calling APIs
+- Set up a web page
     - Clone repo from [https://github.com/wdi-sf-fall/omdb_in_class](https://github.com/wdi-sf-fall/omdb_in_class)
-- Set up form & route for a movie search
-- Have handler call OMDB API
-- Render results in a template
+- Have page call OMDB API
+- ~~Render results in a template~~
 
 ## Questions to ask yourselves
 
 - Do you know what API stands for?
 - Do you know of any APIs?
 - Have we used any APIs in class yet?
-- Have we had our client-side code talk to our server-side code?
+- ~~Have we had our client-side code talk to our server-side code?~~
 
 ## Application Programming Interface
 
 Programs talking to (i.e., interfacing with) each other.
 
-- Browser <-> Browser (e.g., Your JS calls Google Maps)
+- Browser <-> Browser (e.g., Your JS talks to Google Maps within the browser)
 - Browser <-> Server (e.g., Your JS calls your server)
-- Server <-> Server (e.g., Your server calls someone else's)
+- Server <-> Server (e.g., Your server calls someone else's server)
 - Server <-> Database (e.g., Even your database has an API)
 
 ### Keyword: Interface
@@ -51,27 +51,21 @@ Where else in computing do we see the term "interface"?
 - document.getElementById()
 - window.onload = function () {}
 
-### Express has an API
+##  Web Storage has an API
 
-    app.get("/", function (req, res) {
-        res.send("Hello, World!");
-    })
+- [https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API)
+- [https://developer.mozilla.org/en-US/docs/Web/API/Storage](https://developer.mozilla.org/en-US/docs/Web/API/Storage)
 
-    app.get("/add/:x/:y", function (req, res) {
-        // ...
-    });
-
-[http://expressjs.com/4x/api.html](http://expressjs.com/4x/api.html)
+```javascript
+localStorage.getItem
+localStorage.setItem
+localStorage.removeItem
+localStorage.clear
+```
 
 ### Twitter has an API
 
 [https://dev.twitter.com/rest/public](https://dev.twitter.com/rest/public)
-
-### Last night's homework?
-
-Your app.js file created an API that your client-side code
-communicated with.  It, however, may not have been a very well defined
-API :)
 
 ## OMDB API Exercise
 
