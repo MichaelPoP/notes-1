@@ -9,18 +9,14 @@
 
 ## Building from yesterday's lesson
 
-- Use jQuery's functions for calling APIs
-- Set up a web page
-    - Clone repo from [https://github.com/wdi-sf-fall/omdb_in_class](https://github.com/wdi-sf-fall/omdb_in_class)
-- Have page call OMDB API
-- ~~Render results in a template~~
+- Use jQuery's methods for calling APIs
+- Use jQuery's DOM methods for rendering data to the page.
 
 ## Questions to ask yourselves
 
 - Do you know what API stands for?
 - Do you know of any APIs?
 - Have we used any APIs in class yet?
-- ~~Have we had our client-side code talk to our server-side code?~~
 
 ## Application Programming Interface
 
@@ -48,10 +44,10 @@ Where else in computing do we see the term "interface"?
 
 ### Browser has an API
 
-- document.getElementById()
-- window.onload = function () {}
+- `document.getElementById()`
+- `window.addEventListener()`
 
-##  Web Storage has an API
+###  Web Storage has an API
 
 - [https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API)
 - [https://developer.mozilla.org/en-US/docs/Web/API/Storage](https://developer.mozilla.org/en-US/docs/Web/API/Storage)
@@ -63,33 +59,24 @@ localStorage.removeItem()
 localStorage.clear()
 ```
 
+### jQuery has an API
+
+[http://api.jquery.com/](http://api.jquery.com/)
+
+- `$`
+- `$("#someId)`
+- `$(".someClass").find("ul")`
+- `$("form").addClass("someClass")`
+
 ### Twitter has an API
 
 [https://dev.twitter.com/rest/public](https://dev.twitter.com/rest/public)
 
-## OMDB API Exercise
+### Twilio has an API
 
-### Requirements
-Create an Express site that displays a form to the user.
-It should have one field that accepts a search term. Use an
-Express route to handle the form submission. When the form is
-submitted, your handler should make a request to the API from
-http://www.omdbapi.com/ for movies matching the search term.
+[http://www.twilio.com/api](http://www.twilio.com/api)
 
-### Steps
-- Create an Express App.
-- Create a route for the home page ("/").
-- The home page should use an .ejs template to display a `<form>`.
-- The form should have an input box that accepts a search term.
-- When the user submits the form, create an Express route to catch it.
-- Use the `request` module to make a request to http://omdbapi.com for
-  movies matching the search term.
-- Process the JSON results and display movie info on the page using
-  another .ejs template.
+## Resources
 
-## Links
-
-- http://omdbapi.com/
-- https://github.com/mikeal/request
-- https://github.com/wdi-sf-fall/omdb_in_class
-
+- [APIs on Wikipedia](http://en.wikipedia.org/wiki/Application_programming_interface)
+- [jQuery AJAX methods](http://api.jquery.com/category/ajax/)
