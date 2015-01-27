@@ -43,27 +43,21 @@ Where else in computing do we see the term "interface"?
 ## Examples
 
 - Browser has an API
-```
-        document.getElementById()
-        window.addEventListener()
-```
+    - `document.getElementById()`
+    - `window.addEventListener()`
 - Web Storage has an API
     - [https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API)
     - [https://developer.mozilla.org/en-US/docs/Web/API/Storage](https://developer.mozilla.org/en-US/docs/Web/API/Storage)
-```
-        localStorage.getItem()
-        localStorage.setItem()
-        localStorage.removeItem()
-        localStorage.clear()
-```
+    - `localStorage.getItem()`
+    - `localStorage.setItem()`
+    - `localStorage.removeItem()`
+    - `localStorage.clear()`
 - jQuery has an API
     - [http://api.jquery.com/](http://api.jquery.com/)
-```
-        $
-        $("#someId)
-        $(".someClass").find("ul")
-        $("form").addClass("someClass")
-```
+    - `$`
+    - `$("#someId)`
+    - `$(".someClass").find("ul")`
+    - `$("form").addClass("someClass")`
 - Twitter has an API
     - [https://dev.twitter.com/rest/public](https://dev.twitter.com/rest/public)
 - Twilio has an API
