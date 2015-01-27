@@ -42,25 +42,25 @@ Where else in computing do we see the term "interface"?
 
 ## Examples
 
-- Browser has an API
+- __Browser has an API__
     - `document.getElementById()`
     - `window.addEventListener()`
-- Web Storage has an API
+- __Web Storage has an API__
     - [https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API)
     - [https://developer.mozilla.org/en-US/docs/Web/API/Storage](https://developer.mozilla.org/en-US/docs/Web/API/Storage)
     - `localStorage.getItem()`
     - `localStorage.setItem()`
     - `localStorage.removeItem()`
     - `localStorage.clear()`
-- jQuery has an API
+- __jQuery has an API__
     - [http://api.jquery.com/](http://api.jquery.com/)
     - `$`
     - `$("#someId)`
     - `$(".someClass").find("ul")`
     - `$("form").addClass("someClass")`
-- Twitter has an API
+- __Twitter has an API__
     - [https://dev.twitter.com/rest/public](https://dev.twitter.com/rest/public)
-- Twilio has an API
+- __Twilio has an API__
     - [http://www.twilio.com/api](http://www.twilio.com/api)
 
 ## Good API Design
