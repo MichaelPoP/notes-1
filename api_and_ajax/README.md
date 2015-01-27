@@ -76,6 +76,18 @@ localStorage.clear()
 
 [http://www.twilio.com/api](http://www.twilio.com/api)
 
+## Good API Design
+
+APIs can be big, public endevours (jQuery, Twitter, etc), or they can
+be smaller, less official undertakings such as when your code needs to
+talk to your co-worker's. How do you and your co-worker each design
+your separate parts so that they interface well but are isolated
+enough that they are easy to understand and maintain?
+
+- Separation of Concerns
+- Loose Coupling
+- Documentation :)
+
 ## Resources
 
 - [APIs on Wikipedia](http://en.wikipedia.org/wiki/Application_programming_interface)
